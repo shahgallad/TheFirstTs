@@ -1,0 +1,15 @@
+<div [ngClass]="{thirdBlock:true}">
+    <div [ngClass]="{imgBlock:true}">
+        <img [ngClass]="{imgElem:true}" *ngFor="let imgPath of randomPath" src={{imgPath.path}}>
+    </div>
+    <p [ngClass]="{groupTitle:true}">{{ card.name }}</p>
+    <div [ngClass]="{miniBlock:true}">
+        <p [ngClass]="{creator:true}">Создатель:</p>
+        <a [ngClass]="{creator:true}">Это создатель</a>
+    </div>
+    <div [ngClass]="{miniBlock:true}">
+        <p [ngClass]="{creator:true}">Отслеживают:</p>
+        <img [ngClass]="{miniImgElem:true}" *ngFor="let imgPath of randomPath2" src={{imgPath.path}}>
+    </div>
+    <p [ngClass]="{tew:true}">Добавить в избранное</p>
+</div>

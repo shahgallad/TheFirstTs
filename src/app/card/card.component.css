@@ -1,0 +1,62 @@
+.thirdBlock{
+    width: 360px;
+    height: 275px;
+    background-color: white;
+    border-width: 3px;
+    border-color:  #1a237e;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.imgBlock{
+    height: 120px;
+}
+
+.imgElem{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.groupTitle{
+    font-size: 30px;
+    text-align: left;
+    margin: 5px 10Px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 34px;
+}
+
+.miniBlock{
+    height: 30px;
+    text-align: left;
+    display: flex;
+}
+
+.creator{
+    font-size: 15px;
+    margin: 5px 10Px;
+    width: 95px;
+}
+
+.miniImgElem{
+    margin: 0px 5Px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.tew{
+    font-size: 25px;
+    color: white;
+    width: 260px;
+    background-color: #534bae;
+    border-radius: 6%;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-bottom: 5px
+}

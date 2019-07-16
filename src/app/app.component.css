@@ -1,0 +1,22 @@
+.firstBlock{
+    background-color: #212121;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.secondBlock{
+    text-align: center;
+    background-color: #484848;
+
+    left: 30px;
+    right: 30px;
+    min-height: 320px;
+}
+
+.buttCl{
+    text-align: center;
+    font: caption;
+    margin: 10px;
+    font-size: 25px;
+}
