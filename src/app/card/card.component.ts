@@ -6,11 +6,16 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
+  addFav = true
 
 
   @Input() card;
    
   constructor() {}
+
+  addDellFav(){
+    this.addFav = !this.addFav
+  }
 
   ngOnInit() {
   }

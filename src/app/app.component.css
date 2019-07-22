@@ -1,17 +1,15 @@
 .firstBlock{
-    background-color: #212121;
+    background-color: #303133;
     text-align: center;
     padding: 25px;
-    
+    min-height: 1000px;
 }
 
 .secondBlock{
     text-align: center;
-    background-color: #484848;
-
     left: 30px;
     right: 30px;
-    min-height: 320px;
+    min-height: 963px;
 }
 
 .buttCl{
@@ -19,4 +17,9 @@
     font: caption;
     margin: 10px;
     font-size: 25px;
+    box-shadow:0 0 10px 5px #03a9f4;
+    border-radius: 5%;
+    border-width: 3px;
+    border-color:  #03a9f4;
+    border-style: solid;
 }

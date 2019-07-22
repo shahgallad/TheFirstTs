@@ -10,16 +10,14 @@ import { CardService } from './cards.service';
 export class AppComponent {
 
   cards = []
-  constructor(private cardsService: CardService) {}
+  constructor(private cardsService: CardService) {
+  }
 
   ngOnInit() {
     this.cards = this.cardsService.cards
   }
 
   onClick(){
-    console.log("NICE")
     this.cardsService.updList()
-    console.log("OR NOT?!?!?!?!?!")
-    
   }
 }

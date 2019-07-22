@@ -1,5 +1,5 @@
 <div [ngClass]="{firstBlock:true}">
-  <button [ngClass]="{buttCl:true}" (click)="onClick()">Сгенерировать виджет</button>
+  <button [ngClass]="{buttCl:true}" (click)="onClick()">Добавить виджет</button>
   <div [ngClass]="{secondBlock:true}">
     <app-card *ngFor="let card of cards" [card]="card"></app-card>
   </div>

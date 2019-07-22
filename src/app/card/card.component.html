@@ -4,12 +4,15 @@
     </div>
     <p [ngClass]="{groupTitle:true}">{{ card.cardTitle }}</p>
     <div [ngClass]="{miniBlock:true}">
-        <p [ngClass]="{creator:true}">Создатель:</p>
-        <a [ngClass]="{creator:true}">{{ card.cardCreator }}</a>
+        <p [ngClass]="{greyText:true}">Создатель:</p>
+        <a [ngClass]="{creator:true}" href="">{{ card.cardCreator }}</a>
     </div>
     <div [ngClass]="{miniBlock:true}">
-        <p [ngClass]="{creator:true}">Отслеживают:</p>
+        <p [ngClass]="{greyText:true}">Отслеживают:</p>
         <img [ngClass]="{miniImgElem:true}" *ngFor="let imgPath of card.subscriberImg" src={{imgPath.path}}>
     </div>
-    <p [ngClass]="{tew:true}">Добавить в избранное</p>
+    <div>
+        <button [ngClass]="{tew1:true}" *ngIf="addFav" (click)="addDellFav()">ДОБАВИТЬ В ИЗБРАННОЕ</button>
+        <button [ngClass]="{tew2:true}" *ngIf="!addFav"  (click)="addDellFav()">В ИЗБРАННОМ</button>
+    </div>
 </div>

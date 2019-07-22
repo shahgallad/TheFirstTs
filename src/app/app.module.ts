@@ -3,15 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { SettingsComponent } from './settings/settings.component';
 import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    SettingsComponent,
     CardComponent
   ],
   imports: [
